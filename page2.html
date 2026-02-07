@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>My Favorite Games</title>
+         <link rel="stylesheet" href="css/style.css">  
     </head>
-    <body>
+    <body id="second-page">
+        <!-- Second Page, starting list-->
         <header>
             <h1>My Favorite Games</h1>
             <p>Here I share some of my all-time favorite games and why I love them!</p>
@@ -12,23 +14,25 @@
 
         <main>
             <section>
+                <!-- Games I Play-->
                 <h2>Top 5 Games I Play</h2>
 
+                
                 <img src="./images/winningagame.webp" alt="Guy winning game" width="50%">
-                <ol>
-                    <li>Destiny 1 and 2</li>
-                    <li>Cod: Warzone</li>
-                    <li>Fortnite</li>
-                    <li>Brawlhalla</li>
-                </ol>
+               <div id="flex-container">
+                    <div class="box">  Destiny 1 & 2</div>
+                     <div class="box">  COD: Warzone</div>
+                      <div class="box">  Fortnite</div>
+                       <div class="box">  Brawlhalla</div>
+               </div>
             </section>
-
+<!-- Why I play them-->
             <section>
-                <h2>Why these games have a specail place in my heart</h2>
-                <p>These games are 1.Very competitive, 2. Multiplayer, and 3. Made be nerdy but all have specail ways they carry out the combat in their game</p>
+                <h2>Why these games have a special place in my heart</h2>
+                <p class= "description">These games are 1.Very competitive, 2. Multiplayer, and 3. Made be nerdy but all have special ways they carry out the combat in their game</p>
             </section>
         </main>
-        
+        <!-- Move back to first-->
         <footer>
             <p>Back to <a href="index.html">All About Gaming</a></p>
         </footer>
