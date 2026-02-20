@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My website</title>
-        <link rel="stylesheet" href="css/style.css">   
-    </head>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Gaming</title>
+    <link rel="stylesheet" href="css/style.css">   
+</head>
 <body id="home-page">
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <!-- Main Header-->
     <header>
         <h1>All About Gaming</h1>
-        <p>Welcome to my gaming page. Here is where I will share my favorite type of games and why gaming is so fun</p>
+        <p>Welcome to my gaming page! Here is where I share my favorite types of games and why gaming is so much fun.</p>
     </header>
 
-    <main>
-        <!-- Expressing my love for games and introducing images-->
+    <main id="main-content">
+        <!-- Introduction Section -->
         <section>
-            <h2>Why i love gaming</h2>
-            <p class="description">Gaming allows me to truly be myself and unwind. It challenges the brain and creates great communication skills</p>
-            <p class="description">There are many genres to choose from, no matter what type of vibe you're going for</p>
-
-            <img src="./images/controllerinfrontoftv.webp" alt="Game controller infront of TV" width="50%">
+            <h2>Why I Love Gaming</h2>
+            <p class="description">Gaming allows me to be myself and unwind. It challenges my brain and improves communication skills.</p>
+            <p class="description">There are many genres to choose from, no matter what type of vibe you're going for!</p>
+            <img src="./images/controllerinfrontoftv.webp" alt="Game controller in front of TV" width="50%">
         </section>
 
+        <!-- Popular Genres Section -->
         <section>
-            <h2>Popular gaming genres</h2>
+            <h2>Popular Gaming Genres</h2>
             <ul>
-                <li>RPG's</li>
+                <li>RPGs</li>
                 <li>Simulation</li>
                 <li>Sports</li>
                 <li>Action</li>
             </ul>
+            <p class="description">Each genre offers a unique experience — from strategic storytelling in RPGs to competitive multiplayer in action games!</p>
+        </section>
+
+        <!-- Featured Game Section -->
+        <section>
+            <h2>Featured Game of the Month</h2>
+            <img src="./images/fortnitelogo.webp" alt="Fortnite logo" width="100">
+            <p class="description">Fortnite is a favorite for its fast-paced battles, creative building mechanics, and fun events.</p>
+            <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank" rel="noopener noreferrer">Learn more about Fortnite</a>
         </section>
     </main>
-<!-- MOve to second page-->
+
+    <!-- Footer Navigation -->
     <footer>
-        <p>Go to <a href="page2.html">My Favorite Games</a></p>
+        <p>Go to <a href="page2.html" title="See my favorite games">My Favorite Games</a></p>
     </footer>
 </body>
 </html>

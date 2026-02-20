@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Favorite Games</title>
-         <link rel="stylesheet" href="css/style.css">  
-    </head>
-    <body id="second-page">
-        <!-- Second Page, starting list-->
-        <header>
-            <h1>My Favorite Games</h1>
-            <p>Here I share some of my all-time favorite games and why I love them!</p>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Games</title>
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+<body id="second-page">
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-        <main>
-            <section>
-                <!-- Games I Play-->
-                <h2>Top 5 Games I Play</h2>
+    <header>
+        <h1>My Favorite Games</h1>
+        <p>Here I share some of my all-time favorite games and why I love them!</p>
+    </header>
 
-                
-                <img src="./images/winningagame.webp" alt="Guy winning game" width="50%">
-               <div id="flex-container">
-                    <div class="box">  Destiny 1 & 2</div>
-                     <div class="box">  COD: Warzone</div>
-                      <div class="box">  Fortnite</div>
-                       <div class="box">  Brawlhalla</div>
-               </div>
-            </section>
-<!-- Why I play them-->
-            <section>
-                <h2>Why these games have a special place in my heart</h2>
-                <p class= "description">These games are 1.Very competitive, 2. Multiplayer, and 3. Made be nerdy but all have special ways they carry out the combat in their game</p>
-            </section>
-        </main>
-        <!-- Move back to first-->
-        <footer>
-            <p>Back to <a href="index.html">All About Gaming</a></p>
-        </footer>
-    </body>
+    <main id="main-content">
+        <!-- Top Games Section -->
+        <section>
+            <h2>Top 4 Games I Play</h2>
+            <p class="description">These are the games I always go back to because of their gameplay, multiplayer features, and fun mechanics.</p>
+
+            <div id="flex-container" aria-label="Top 4 games I play">
+                <div class="box">
+                    <img src="./images/Destiny2Logo.webp" alt="Destiny 2 logo" width="80">
+                    Destiny 1 & 2<br>
+                    <a href="https://www.bungie.net/" target="_blank" rel="noopener noreferrer">Official Site</a>
+                </div>
+                <div class="box">
+                    <img src="./images/WarzoneLogo.webp" alt="Call of Duty: Warzone logo" width="80">
+                    COD: Warzone<br>
+                    <a href="https://www.callofduty.com/warzone" target="_blank" rel="noopener noreferrer">Official Site</a>
+                </div>
+                <div class="box">
+                    <img src="./images/FortniteLogo.webp" alt="Fortnite logo" width="80">
+                    Fortnite<br>
+                    <a href="https://www.epicgames.com/fortnite/en-US/home" target="_blank" rel="noopener noreferrer">Official Site</a>
+                </div>
+                <div class="box">
+                    <img src="./images/BrawlhallaLogo.webp" alt="Brawlhalla logo" width="80">
+                    Brawlhalla<br>
+                    <a href="https://www.brawlhalla.com/" target="_blank" rel="noopener noreferrer">Official Site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why I Love These Games Section -->
+        <section>
+            <h2>Why These Games Have a Special Place in My Heart</h2>
+            <p class="description">
+                These games are highly competitive, multiplayer-focused, and uniquely creative. They challenge me while giving me opportunities to team up with friends.  
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer Navigation -->
+    <footer>
+        <p>Back to <a href="index.html" title="Return to homepage about gaming">All About Gaming</a></p>
+    </footer>
+</body>
 </html>
